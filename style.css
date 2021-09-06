@@ -1,0 +1,170 @@
+body
+{
+    background-color: #f3f3f3;
+}
+.content
+{   
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f3f3f3;
+}
+.navbar
+{
+ display: flex;
+ flex-flow: row wrap;
+ width: 100%;
+ height:50px;
+ margin-top: 15px;
+}
+.navlogo img
+{
+ height: 46px;
+}
+ul
+{ 
+list-style-type: none;
+overflow: hidden;
+display: flex;
+flex-wrap: wrap;
+align-self: flex-start;
+flex-grow: 4;
+}
+li a
+{
+text-decoration: none;
+color: black;
+font-size: 13px;
+font-family:"Montserrat", sans-serif;
+font-weight: bolder;
+margin: 20px;
+}
+
+i
+{
+padding-top: 17px;
+margin-right: 12px;
+}
+.social
+{
+margin-right:70px;
+}
+.menu
+{
+font-size:22px ;
+}
+.row
+{
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 1200px;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+}
+.column
+{
+    flex: 50%;
+}
+.column pre
+{   
+    font-family: "Merriweather", sans-serif;
+    font-size: 35px;
+    padding: 8px;
+    margin-top: 55px;
+}
+
+.colum pre img
+{
+color: grey;
+size: 40px;
+}
+
+.column img
+{   
+    height: 350px;
+    width: 80%;
+    padding: 90px 80px;
+}
+
+button
+{
+    font-family:"Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 10px 8px ;
+    margin-top: 15px;
+    margin-left: 10px;
+    color:grey;
+}
+
+#km
+{
+    background-color: #262e42;
+    color: #f3f3f3;
+    margin-right: 35px;
+}
+
+footer
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    font-family:"poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.shape_1{
+	width: 14vw;
+	position: absolute;
+    height: 6.6vw;
+    border: 0.25vw solid black;
+    border-radius: 10vw;     
+    top: -2.5vw;
+    left: 35%;
+    z-index: 2;
+    transform: rotate(-30deg);
+    opacity: 0.1;
+}
+
+.shape_2{
+	width: 9vw;
+	position: absolute;
+    height:9vw;
+    border: 0.25vw solid black;
+    border-radius: 10vw;     
+    top: 5vw;
+    left: 96%;
+    z-index: 2;
+    transform: rotate(0deg);
+    opacity: 0.1;
+}
+
+.shape_3{
+    position: absolute;
+    bottom: 9vw;
+    z-index: 2;
+    left: 1vw;
+    opacity: 0.1;
+    width: 5vw;
+}
+.shape_3 img{
+	height: 10vw;
+	width: 10vw;
+}
+
+.shape_4{
+	width: 16vw;
+	height: 7vw;
+	position: absolute;
+    border: 0.25vw solid black;
+    border-radius: 10vw;     
+    top: 44vw;
+    left: 68%;
+    z-index: 2;
+    transform: rotate(25deg);
+    opacity: 0.1;
+}
